@@ -9,6 +9,6 @@ def send_welcome(message):
 
 @bot.message_handler(commands=["how"])
 def send_message(message):
-    bot.reply_message(message.chat.id,"t.me/ImshZe")
+  bot.send_message(message.chat.id, "t.me/ImshZe")
     
 bot.polling()
